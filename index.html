@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" />   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
 </head>
 <body>
-    <h1>Hi, I am Rohan</h1>
+
+    <nav>
+        <ul>
+            <li>Search</li>
+            <li>Weather</li>
+        </ul>
+    </nav>
+    <div class="page" id="searchPage">
+        <br><br><br><br>
+        <input type = "text" id="name" placeholder="Enter a City Name">
+        <button id = "submitBtn" type = "submit">
+            <span class="material-symbols-outlined">search</span>
+        </button>
+    </div>
+    <div class="page" id="weatherDetails">
+        <p id = 'temp'>Temperature</p>
+        <p id = 'desc'>Description</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
