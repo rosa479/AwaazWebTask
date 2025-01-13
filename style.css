@@ -6,6 +6,15 @@
     text-align: center;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(168, 168, 168);
+}
+
 .header{
     width: 100%;
     height: 100vh;
@@ -42,7 +51,7 @@ nav ul li{
 }
 
 #submitBtn{
-    background-color: whitesmoke;
+    background-color: whitesmoke
     text-align: center;
     border: 0px;
     outline : 0px;
@@ -77,8 +86,10 @@ nav ul li{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 2em;
     height: 100vh;
     width: 100vw;
+    color: whitesmoke;
     background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
 }
 
@@ -88,4 +99,39 @@ nav ul li{
 
 #desc{
     font-size: 1.5em;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: whitesmoke;
+    background: linear-gradient(to right, #314755, #26a0da);
+}
+
+#wrapper{
+    height: 100vh;
+    position: relative;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-bottom: auto;
+}
+
+footer ul{
+    background-color: black;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: white;
 }
