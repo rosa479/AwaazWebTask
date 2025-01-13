@@ -6,15 +6,15 @@
     <title>Weather</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="#" />   
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
 
     <nav>
         <ul>
-            <li>Search</li>
-            <li>Weather</li>
-            <li>About</li>
+            <li><a href="#searchPage">Search</a></li>
+            <li><a href="#weatherDetails">Weather</a></li>
+            <li><a href="#about">About Us</a></li>
         </ul>
     </nav>
     <div class="page" id="searchPage">
@@ -37,6 +37,7 @@
 
     <div class="page" id="about">
         <div id="wrapper">
+            <h1>Hola!</h1>
             <footer>
                 <ul>
                     <li><a target="_blank" href="https://github.com/rosa479/">Github</a></li>
@@ -47,6 +48,12 @@
             </footer>
         </div>
     </div>
+
+    <a href="#" id="top">
+        <span class="material-symbols-outlined">
+        arrow_upward
+        </span>
+    </a>
 
     <script src="script.js"></script>
 </body>
